@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+
+<body>                                                                            
+     <nav class="navbar navbar-expand-md ">
+   <div class="container-fluid my-4 navigation ">
+
+    <button class="navbar-toggler d-md-none d-lg-none d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+     <a class="navbar-brand" href="http://"><img src="images/logo.svg" alt="" srcset=""> </a>
+     
+     <div class="d-flex align-items-center cart&profile d-md-none">
+      <img src="images/icon-cart.svg" alt="" srcset="" width="22" height="22" >
+      <img src="images/image-avatar.png" alt="" srcset="" width="30">
+  </div>
+
+    
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+       <ul class="navbar-nav me-auto mb-2 mb-md-0 mx-3">
+        <li class="nav-item">
+          <a class="nav-link color-black" href="#">Collection</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color-black" href="#">Man</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link color-black" href="#">Woman</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link color-black" href="#">About</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link color-black" href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center d-none d-lg-block d-xl-block d-md-block px-md-2">
+        <img src="images/icon-cart.svg" class="mx-md-1" alt="" srcset="" width="22" height="22" >
+        <img src="images/image-avatar.png" class="mx-md-2" alt="" srcset="" width="40">
+    </div>
+    </div>
+</div>
+</nav>
+<hr class="nav-line">
+<div class="container">
+
+<main class="section1 pt-lg-5 ">
+
+
+ 
+<div class="row mt-lg-5 mt-md-5">
+    <div class="col-sm-12 col-md-5 col-lg-5 pe-lg-5 product-image offset-lg-1">
+          
+      <img src="images/image-product-1.jpg" class="me-lg-5">
+       
+  
+  <div class="d-flex parent-width mt-4 justify-content-start gap-4 ">
+    <div> <img src="images/image-product-1-thumbnail.jpg" class="d-none d-lg-block"  alt=""></div>
+    <div>    <img src="images/image-product-2-thumbnail.jpg"  alt="" class="d-none d-lg-block">
+    </div>
+    <div><img src="images/image-product-3-thumbnail.jpg"   alt="" class="d-none d-lg-block"></div>
+    <div><img src="images/image-product-4-thumbnail.jpg" alt="" class="d-none d-lg-block"></div>
+   
+     
+    
+  
+  </div>
+  
+  
+      
+    </div>
+ 
+  
+  <div class="col-lg-5 col-sm-12 col-md-7 green d-flex ">
+    <div class="container mt-lg-5 me-lg-5">
+
+ 
+  <h3 class="text-uppercase h6 my-3">Sneaker company</h3>
+  <h2 class="text-capitalize h1 py-3">Fall Limited Edition Sneakers
+  </h2>
+  <p class="my-3">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+    durable rubber outer sole, they’ll withstand everything the weather can offer.
+  </p>
+  <div class="price-section d-flex pt-3 justify-content-start align-items-center">
+   <p class="discount-price fw-bold">$125.00</p>
+   <p class="discount px-2 mx-md-4">50%</p>
+   <p class="final-price d-sm-block d-lg-none d-md-none">$250.00</p>
+  </div>
+  <p class="d-sm-none d-none d-lg-block d-md-block  h6 final-price">$250.00</p>
+  
+  <div class="select-section row my-5">
+     <div class="col-4 d-flex change-cart gap-lg-4 gap-md-3 py-3 justify-content-center align-items-center"> 
+      <img src="images/icon-minus.svg" alt="reduce-art" width="13px" height="5px">
+      <span>0</span>
+      <img src="images/icon-plus.svg" alt="increase cart" width="13px" height="13px">  
+    </div>
+
+     <div class="col-8"> 
+      <button class="btn addcart py-3 text-center rounded-3 text-white"> <img src="images/icon-cart-white.svg" alt=""> Add to cart</button> 
+      </div>
+  </div>
+  </div>
+</div>
+
+</div>
+  </div>
+</main>
+
+<div class="attribution mt-5 text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yusuf Aiyegbajeje</a>.
+  </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
